@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
 })
 
 const PORT = 3000
-app.listen(PORT, _=> {
-    console.log('servidor rodando na porta 3000!')
+app.listen(PORT, _ => {
+    console.log('servidor rodando na porta: '+ PORT)
 })
